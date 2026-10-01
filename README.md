@@ -1,11 +1,13 @@
 # Node.js CI/CD Pipeline using GitHub Actions and Docker
 
-This repository contains a sample Node.js application configured with a complete CI/CD automation pipeline for the Elevate Labs DevOps Internship Task 1[span_0](start_span)[span_0](end_span).
+This repository contains a sample Node.js application configured with a complete CI/CD automation pipeline for the Elevate Labs DevOps Internship Task 1
 
 ## 📋 Task Overview
-* **Objective**: Set up a CI/CD pipeline to build and deploy a web application using automation[span_1](start_span)[span_1](end_span).
-* **Tools Used**: GitHub, GitHub Actions, Node.js, Docker, and DockerHub[span_2](start_span)[span_2](end_span).
-* **Deliverable**: GitHub repository featuring the `.yml` CI/CD workflow and project source files[span_3](start_span)[span_3](end_span).
+* **Objective**: Set up a CI/CD pipeline to build and deploy a web application using automation
+* 
+* **Tools Used**: GitHub, GitHub Actions, Node.js, Docker, and DockerHub
+* 
+* **Deliverable**: GitHub repository featuring the `.yml` CI/CD workflow and project source files
 
 ---
 
@@ -19,13 +21,14 @@ This repository contains a sample Node.js application configured with a complete
 ---
 
 ## ⚙️ CI/CD Pipeline Workflow
-The pipeline triggers automatically on every push to the `main` branch and runs two automated jobs[span_4](start_span)[span_4](end_span):
+The pipeline triggers automatically on every push to the `main` branch and runs two automated jobs
+
 1. **`test`**: Sets up the Node.js environment, installs dependencies, and runs the test suite (`npm test`).
-2. **`build-and-push`**: Authenticates securely using GitHub Secrets (`DOCKER_USERNAME` and `DOCKER_PASSWORD`), builds the Docker image, and pushes it directly to DockerHub[span_5](start_span)[span_5](end_span).
+2. **`build-and-push`**: Authenticates securely using GitHub Secrets (`DOCKER_USERNAME` and `DOCKER_PASSWORD`), builds the Docker image, and pushes it directly to DockerHub
 
 ---
 
 ## 🚀 Verification & Links
 * **GitHub Actions**: Verified via successful workflow runs (Green Ticks `✔`) in the Actions tab.
-* **DockerHub Repository**: Deployed and available at [kishore2406/nodejs-demo-app](https://hub.docker.com/r/kishore2406/nodejs-demo-app)[span_6](start_span)[span_6](end_span).
+* **DockerHub Repository**: Deployed and available at [kishore2406/nodejs-demo-app](https://hub.docker.com/r/kishore2406/nodejs-demo-app)
   
